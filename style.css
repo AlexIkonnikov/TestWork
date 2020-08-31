@@ -32,7 +32,7 @@ html {
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin-top: 12px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .main-header__logo {
@@ -61,7 +61,7 @@ html {
     background-color: black;
     padding: 0;
     margin: 0;
-    margin-bottom: 16px;
+    margin-bottom: 7px;
     border:1px solid #e0e0e0;
     height: 45px;
 }
@@ -122,10 +122,14 @@ html {
 .bread-crumbs__link {
     font-family: arial;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 20px;
     color: #231f20;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.bread-crumbs__item:first-child {
+    padding-left: 0;
 }
 
 .bread-crumbs__link--active {
@@ -154,7 +158,7 @@ html {
     width: 652px;
     min-height: 379px;
     background-color: #f2f2f2;
-    padding-left: 22px;
+    padding-left: 13px;
 }
 
 .bread-crumbs {
@@ -167,7 +171,7 @@ html {
 }
 
 .form__heading {
-    padding:19px 337px 31px 74px;
+    padding:19px 337px 28px 79px;
     font-family: arial;
     font-size: 30px;
     line-height: 32px;
@@ -183,12 +187,13 @@ html {
 }
 
 .form__time {
-    margin-bottom: 27px;
+    margin-bottom: 21px;
 }
 
 .form__place {
     width: 88px;
     height: 23px;
+    box-sizing: border-box;
 }
 
 .form__select {
@@ -201,15 +206,16 @@ html {
 .form__range {
     width: 240px;
     margin-left: 19px;
+    padding: 0;
 }
 
 
 .form__add {
-    margin-bottom: 25px;
+    margin-bottom: 21px;
 }
 
 .form__add-sum {
-    margin-bottom: 37px;
+    margin-bottom: 41px;
 }
 
 
@@ -226,6 +232,7 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-left: 7px;
 }
 
 .form__result{
@@ -234,6 +241,7 @@ html {
             order:2;
     margin: 0;
     margin-left: 25px;
+    color: #395306;
 }
 
 .form__submit {
@@ -271,7 +279,7 @@ label p {
     width: 180px;
     text-align: right;
     margin: 0;
-    margin-right: 30px;
+    margin-right: 26px;
 
     font-family: arial;
     font-size: 14px;
@@ -297,17 +305,19 @@ label p {
     padding: 0;
     margin: 0;
     margin-left: 60px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .main-footer__item {
-    margin-right: 25px;
+    margin-right: 34px;
 }
 
 .main-footer__link {
     color: white;
     text-decoration: none;
     border-bottom: 1px solid #c8c7c7;
+    font-size: 12px;
+    line-height: 20px;
 }
 
 .form__range-wrapper {
@@ -321,7 +331,7 @@ label p {
     content: "1 тыс. руб";
     position: absolute;
     display: inline-block;
-    top:20px;
+    top:12px;
     left: 20px;
     font-family: Verdana;
     font-size: 10px;
@@ -333,7 +343,7 @@ label p {
     content: "3 000 000";
     position: absolute;
     display: inline-block;
-    top:20px;
+    top:10px;
     right: 5px;
     font-family: Verdana;
     line-height: 20px;
@@ -404,3 +414,13 @@ label p {
     background: #1e1f22;
     border:none;
 }
+
+.yes {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.no {
+    margin-right: 3px;
+}
+

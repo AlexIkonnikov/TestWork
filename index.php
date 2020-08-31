@@ -58,7 +58,7 @@
                 </label>
                 <label class="form__add">
                     <p>Пополнение вклада</p>
-                    <label><input type="radio" name="add" value="0" checked>Нет</label>
+                    <label><input type="radio" name="add" value="0" checked class="no">Нет</label>
                     <label><input type="radio" name="add" value="1" class="yes">Да</label>
                 </label>
                 <label class="form__add-sum"><p>Сумма пополнение вклада</p><input type="number" min="1000" max="3000000" id="form__place2" class="form__place" name="summadd" value="10000" disabled><div class="form__range-wrapper"><input type="range" min="1000" max="3000000" id="form__range2" class="form__range" disabled></div></label>
